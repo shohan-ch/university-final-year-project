@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Roboto&display=swap');
+
+*{
+    box-sizing: border-box
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F1F4F8;
+    font-family: 'Roboto', sans-serif;
+  
+    
+
+}
+p{
+    font-size: 17px;
+    text-transform: capitalize;
+    
+}
+.navbar{
+    background-color: #262626 !important;
+    height: 57px;
+}
+.drop1{
+    z-index: 100;
+}
+
+.hero1{
+    background: linear-gradient(rgba(122,122,122,0.1), rgba(125,122,174,0.1)),url(img/hero-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero1-des{
+    transform: translate( -150px,150px);
+    
+}
+.hero2{
+background: linear-gradient(rgba(122,122,122,0.1), rgba(125,122,174,0.1)),url(img/heart.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.hero2-des,.hero3-des{
+    transform: translateY(150px);
+}
+.red::after{
+    content: "";
+    display: block;
+    width: 70px;
+    margin: 15px 0px;
+    border-bottom: 2px solid #e10f28;
+   
+
+}
+
+.hero3{
+background: linear-gradient(rgba(122,122,122,0.1), rgba(125,122,174,0.1)),url(img/shutterstock_1393269051.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+.banner{
+    height: 500px;
+    max-width: 100%;
+}
+
+
+.padding{
+    padding-bottom:90px; 
+}
+
+
+.text-info{
+    color: #0CB8B6 !important;
+}
+.w-100{
+    background-color: #0CB8B6;
+    color: #ffffff;
+   
+}
+
+.twocards{
+    position: relative;
+}
+.left-card{
+    z-index: 1000;
+}
+.right-card{
+    position: absolute;
+    right:80px;
+    top:32px;
+    z-index: 0;
+}
+
+.shadow-text{
+    text-shadow: 3px 3px 9px #0CB8B6 ;
+}
+
+
+
+.count-up{
+    background-color: #0CB8B6;
+    height: 200px;
+}
+
+.svg-img{
+    background-image: url(img/svg.svg);
+    background-size: cover;
+    width: 100%;
+    padding: 130px;
+}
+
+    /*------------------------------------Flickity options----------------------------*/
+
+
+    .carousel-cell{
+        width: 100%;
+    }
+
+    .flickity-prev-next-button.previous {
+        left: -40px;
+      }
+      .flickity-prev-next-button.next {
+        right: -40px;
+      }
+
+
+/*------------------------------------OWl carousel  options----------------------------*/
+
+
+.item{
+
+
+    width: 200px;
+    height: auto;       
+
+
+}
+
+.item img{
+
+    width: 200px;
+    height: 100px;
+
+}
+
+
+
+
+.foot{
+    background-color: #2B354F;
+    padding: 100px;
+}
+
+
+/*--------------------------------------Doctor page Style---------------*/
+
+
+
+.doc-img img{
+    width: 105px;
+    height: 120px;
+}
+
+.bld{
+    text-shadow: 3px 3px 9px rgb(245, 5, 5) ;
+}
+
+.bld-page{
+    
+    background: linear-gradient(rgba(145, 145, 152, 0.3),rgba(17, 17, 21, 0.3)), url(img//heart.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 88px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.dec{
+    clear: both;
+    float: left;
+    text-align: left;
+    background: url(img/arrow-bottom.gif) no-repeat -1px 6px;
+    overflow: hidden;
+    display: block;
+    margin-top: 5px;
+}
+
+.ui-group{
+    display: inline-block;
+    margin-right: 10px
+}
+
+
+.ui-group h3{
+    display: inline-block;
+    margin: 21px 12px;
+    font-size: 22px;
+
+}
+
+
+
+.ambulance-img{
+
+
+
+    background: linear-gradient(rgba(145, 145, 152, 0.1),rgba(66, 66, 72, 0.6)), url(img/traffic-lights-49698_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height:720px;
+}
+
+.ambu-des{
+    transform: translate(-83px,470px);
+}
+
+
+.form-control {
+    display: block;
+    width: 93%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dc35455e;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.custom-select {
+    display: inline-block;
+    width: 93%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #dc35455e;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.star{
+    color: red;
+    font-weight: bolder;
+}
+
+.form-control:focus{
+   border-color: #e10f28;
+  
+}
+.custom-select:focus{
+    border-color: #e10f28;
+ }
+.border-bottom{
+    border-bottom: 2px solid #dee2e6!important
+ }
+.border-right{
+    border-right: 2px solid #dee2e6!important;
+}
+
+.do span.colorful{
+    display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg,#009cd8 0,#00afb7 57%,#00d96b);
+
+}
+
+.form-page{
+    background-color: #F1ECE4;
+    background-size: cover;
+    height: 600px;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+
+.active::after{
+    content: '';
+    width: 100%;
+    display: block;
+    height: 3px;
+    background: #fff;
+    transition: all .3s;
+    
+ 
+}
+.mix li a:hover{
+    color: #fff !important;
+    font-size: 17px;
+    transition: all .2s;
+    font-weight: bolder;
+}
+
+
